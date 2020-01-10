@@ -1,0 +1,30 @@
+{
+    "TIME_ZONE": "America/Lima",
+    "LANGUAGE_CODE": "en-us",
+    "SECRET_KEY": "q7i!bu_%jjxj-(kr=dxp7t9my9i9h&^&#llbz-o)+girovo(m1",
+    "DB": {
+        "default": {
+            "ENGINE": "django.db.backends.postgresql_psycopg2",
+            "HOST": "localhost",
+            "NAME": "facturacion",
+            "USER": "postgres",
+            "PASSWORD": "root",
+            "PORT": 5432
+        }
+    },
+    "AUTH_PASSWORD_VALIDATORS": [
+        {
+            "NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator"
+        },
+        {
+            "NAME": "django.contrib.auth.password_validation.MinimumLengthValidator"
+        },
+        {
+            "NAME": "django.contrib.auth.password_validation.CommonPasswordValidator"
+        },
+        {
+            "NAME": "django.contrib.auth.password_validation.NumericPasswordValidator"
+        }
+    ],
+    "DEBUG": true
+}
